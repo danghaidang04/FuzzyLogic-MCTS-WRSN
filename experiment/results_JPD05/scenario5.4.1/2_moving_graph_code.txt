@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
-    data = pd.read_excel('scenario2_moving.xlsx')
+    data = pd.read_excel(r'C:\Users\admin\OneDrive\Github\WRSN-team\experiment\results_JPD05\scenario5.4.1\scenario2_result.xlsx')
 
     fig = plt.figure()
     x = np.array(list(map(int, data['Nodes'])))
@@ -24,4 +24,6 @@ if __name__ == '__main__':
     plt.ylabel("Total energy for moving")
     plt.xlabel("Number of sensor nodes")
     plt.legend(loc='upper left')
+    
+    
     plt.show()

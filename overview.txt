@@ -15,7 +15,7 @@ Các đặc tính cần làm nổi bật ở thực nghiệm của RL_Graph ( c�
 - RL_GRaph Xem xét đến cả lượng tài nguyên được cung cấp nhằm phân bổ một cách hợp lí ...
 -  Ngoài ra nó cũng đặt các phần thưởng lớn hơn cho các thời điểm đến node mà có hiệu quả  về sạc và cứu sống node cao hơn. Do đó việc tối ưu hàm phần thưởng hướng trực tiếp đến mục tiêu của bài toán.
 - Mặc dù sử dụng cơ chế để tính ra một ngưỡng an toàn cố định nhưng trong quá trình xây dựng đồ thị, các đỉnh có thời gian sạc không đủ để giúp node đó đạt ngưỡng an toàn ở cuối chu kì vẫn nhận được một phần thưởng. Do đó cơ chế sạc và quá trình học trở lên linh hoạt và hiệu quả.   
-- 
+
 
 
 

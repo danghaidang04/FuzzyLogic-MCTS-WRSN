@@ -1,0 +1,1 @@
+"Charging rate (J/s)"
